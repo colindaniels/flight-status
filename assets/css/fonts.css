@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Onest';
+  src: url('/assets/fonts/Onest.ttf');
+}
+
+@font-face {
+  font-family: 'OCR-B';
+  src: url('/assets/fonts/OCR-B.ttf');
+}
+
+body {
+  font-family: 'Onest';
+}
