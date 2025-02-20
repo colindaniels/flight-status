@@ -12,7 +12,7 @@
             <Barcode class="barcode-container" v-if="hasData" side></Barcode>
             <div v-if="!hasData" class="input-box">
                 <h3>ENTER FLIGHT NUMBER</h3>
-                <input v-model="flight_number" type="text" placeholder="Example: AA1275">
+                <input v-model="flight_number" type="text" placeholder="Example: UA237">
                 <FancyBtn @click="getFlightStatus(flight_number)" :hold="inflight" class="btn-container">CHECK STATUS
                 </FancyBtn>
             </div>
